@@ -18,6 +18,11 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * @Description : 图形验证码api
+ * @author : tohsakarinchan
+ * @Date : 2024/08/01 16:54
+ */
 @RestController
 public class CaptchaController {
 
@@ -98,7 +103,6 @@ public class CaptchaController {
         private String id;
         private String data;  // 先接收Base64编码的字符串
     }
-
 
     /**
      * 二次验证，一般用于机器内部调用，这里为了方便测试
