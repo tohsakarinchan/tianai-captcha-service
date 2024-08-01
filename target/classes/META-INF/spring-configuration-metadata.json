@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "cors",
+      "type": "cloud.tianai.captcha.service.configuration.CorsPropConfiguration$CorsProperties",
+      "sourceType": "cloud.tianai.captcha.service.configuration.CorsPropConfiguration$CorsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cors.control-allow-headers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cloud.tianai.captcha.service.configuration.CorsPropConfiguration$CorsProperties"
+    },
+    {
+      "name": "cors.control-allow-methods",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cloud.tianai.captcha.service.configuration.CorsPropConfiguration$CorsProperties"
+    },
+    {
+      "name": "cors.control-allow-origin",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cloud.tianai.captcha.service.configuration.CorsPropConfiguration$CorsProperties"
+    }
+  ],
+  "hints": []
+}

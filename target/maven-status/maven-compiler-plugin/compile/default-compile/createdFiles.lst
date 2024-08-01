@@ -1,0 +1,8 @@
+cloud\tianai\captcha\demo\TianaiCaptchaDemoApplication.class
+cloud\tianai\captcha\demo\CorsPropConfiguration.class
+META-INF\spring-configuration-metadata.json
+cloud\tianai\captcha\demo\CaptchaController.class
+cloud\tianai\captcha\demo\IndexController.class
+cloud\tianai\captcha\demo\CaptchaResourceConfiguration.class
+cloud\tianai\captcha\demo\CaptchaController$Data.class
+cloud\tianai\captcha\demo\CorsPropConfiguration$CorsProperties.class
