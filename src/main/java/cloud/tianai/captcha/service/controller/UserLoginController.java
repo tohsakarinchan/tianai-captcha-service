@@ -26,7 +26,8 @@ public class UserLoginController {
         logger.info("User: {}", user);
 
         if (user != null && user.getUserPassword().equals(loginRequest.getUserPassword())) {
-            return ResponseEntity.ok("Login successful");
+            String token = userLoginService.generateToken(user);
+            return ResponseEntity.ok().body(new LoginResponse(token));
         } else {
             return ResponseEntity.status(401).body("Invalid username or password");
         }
@@ -38,4 +39,14 @@ public class UserLoginController {
 class LoginRequest {
     private String userName;
     private String userPassword;
+}
+
+@Setter
+@Getter
+class LoginResponse {
+    private String token;
+
+    public LoginResponse(String token) {
+        this.token = token;
+    }
 }
