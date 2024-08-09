@@ -3,6 +3,7 @@ package cloud.tianai.captcha.service.filter;
 import cloud.tianai.captcha.service.util.JwtUtil;
 import io.jsonwebtoken.Claims;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 import javax.servlet.FilterChain;
