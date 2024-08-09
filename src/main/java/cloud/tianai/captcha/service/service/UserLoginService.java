@@ -17,7 +17,7 @@ public class UserLoginService {
     @Autowired
     private UserRepository userRepository;
 
-    private final String SECRET_KEY = "your_secret_key"; // 用于生成JWT的密钥
+    private final String SECRET_KEY = "A2D5F8G1J3K6M9P2R5T8W0Y3C5F8H2J6"; // 用于生成JWT的密钥
 
     public UserLoginModel findByUserName(String userName) {
         return userRepository.findByUserName(userName);

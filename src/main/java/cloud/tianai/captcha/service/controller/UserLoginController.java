@@ -23,7 +23,6 @@ public class UserLoginController {
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest) {
         UserLoginModel user = userLoginService.findByUserName(loginRequest.getUserName());
-        logger.info("User: {}", user);
 
         if (user != null && user.getUserPassword().equals(loginRequest.getUserPassword())) {
             String token = userLoginService.generateToken(user);

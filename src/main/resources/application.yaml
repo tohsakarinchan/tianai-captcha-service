@@ -42,3 +42,6 @@ cors:
   controlAllowHeaders: "*"
   controlAllowMethods: "*"
   controlAllowOrigin: "*"
+
+jwt:
+  secret: A2D5F8G1J3K6M9P2R5T8W0Y3C5F8H2J6

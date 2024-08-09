@@ -7,7 +7,8 @@ import java.util.Date;
 
 public class JwtUtil {
 
-    private static final String SECRET_KEY = "your_secret_key";
+    private static final String SECRET_KEY = "A2D5F8G1J3K6M9P2R5T8W0Y3C5F8H2J6";
+
     private static final long EXPIRATION_TIME = 86400000; // 24 hours
 
     public static String generateToken(String username) {
